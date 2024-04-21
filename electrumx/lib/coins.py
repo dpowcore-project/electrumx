@@ -4217,3 +4217,20 @@ class FerriteTestnet(Ferrite):
         'enode2.ferritecoin.org s t',
         'enode3.ferritecoin.org s t',
     ]
+
+class Dpowcoin(Coin):
+    NAME = "Dpowcoin"
+    SHORTNAME = "DPC"
+    NET = "mainnet"
+    XPUB_VERBYTES = bytes.fromhex("0488b21e")
+    XPRV_VERBYTES = bytes.fromhex("0488ade4")
+    P2PKH_VERBYTE = bytes.fromhex("37")
+    P2SH_VERBYTES = (bytes.fromhex("1C"),)
+    WIF_BYTE = bytes.fromhex("80")
+    GENESIS_HASH = ('d86f8a0582e779830f182befeaaabc8c'
+                    '73a159b6b06530910758daf17ce31e36')
+    DESERIALIZER = lib_tx.DeserializerSegWit
+    TX_COUNT = 1
+    TX_COUNT_HEIGHT = 1
+    TX_PER_BLOCK = 1
+    RPC_PORT = 42002
