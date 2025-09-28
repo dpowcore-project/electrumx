@@ -22,7 +22,7 @@ Electrum server network runs ElectrumX.
 
 ### Documentation
 
-Fast setup `Setup <https://github.com/dpowcore-project/electrumx/blob/master/docs/HowToSetup.rst>`_.
+Fast setup [Setup](https://github.com/dpowcore-project/electrumx/blob/master/docs/HowToSetup.rst).
 
 See [readthedocs](https://electrumx-spesmilo.readthedocs.io).
 
