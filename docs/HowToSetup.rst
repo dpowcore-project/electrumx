@@ -51,10 +51,10 @@ Create and edit config::
 
 Config Example::
 
-  COIN = Bitweb
+  COIN = Dpowcoin
   DB_DIRECTORY = /opt/electrumx/db
   DAEMON_URL = http://RPCUSER:RPCPASSWORD@IP:RPCPORT/
-  SERVICES = tcp://:20001,rpc://:8001,ssl://:20002
+  SERVICES = tcp://:22001,rpc://:8001,ssl://:22002;wss://:22003
   EVENT_LOOP_POLICY = uvloop
   PEER_DISCOVERY = self
   INITIAL_CONCURRENT = 50
