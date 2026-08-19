@@ -32,21 +32,21 @@ Create and edit config::
 Config Example::
 
 
-COIN = Bitweb
-DB_DIRECTORY = /opt/electrumx/db
-DAEMON_URL = http://rpcuser:rpcpassword@127.0.0.1:26332/
-DB_ENGINE = rocksdb
-SERVICES = tcp://:20001,rpc://:8000,ssl://20002,wss://:20003
-EVENT_LOOP_POLICY = uvloop
-PEER_DISCOVERY = off
-INITIAL_CONCURRENT = 50
-COST_SOFT_LIMIT = 5000000
-COST_HARD_LIMIT = 50000000
-BANDWIDTH_UNIT_COST = 1000
-MAX_SESSIONS = 1000
-SESSION_TIMEOUT = 600
-SSL_CERTFILE = /opt/electrumx/ssl/fullchain.pem
-SSL_KEYFILE = /opt/electrumx/ssl/privkey.pem
+  COIN = Bitweb
+  DB_DIRECTORY = /opt/electrumx/db
+  DAEMON_URL = http://rpcuser:rpcpassword@127.0.0.1:26332/
+  DB_ENGINE = rocksdb
+  SERVICES = tcp://:20001,rpc://:8000,ssl://20002,wss://:20003
+  EVENT_LOOP_POLICY = uvloop
+  PEER_DISCOVERY = off
+  INITIAL_CONCURRENT = 50
+  COST_SOFT_LIMIT = 5000000
+  COST_HARD_LIMIT = 50000000
+  BANDWIDTH_UNIT_COST = 1000
+  MAX_SESSIONS = 1000
+  SESSION_TIMEOUT = 600
+  SSL_CERTFILE = /opt/electrumx/ssl/fullchain.pem
+  SSL_KEYFILE = /opt/electrumx/ssl/privkey.pem
 
 
 
