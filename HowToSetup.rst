@@ -9,7 +9,7 @@ Prepare::
 
   apt install -y python3.12 python3.12-venv python3.12-dev python3-pip python3-setuptools python3-multidict libleveldb-dev gcc g++ libsnappy-dev zlib1g-dev libbz2-dev libgflags-dev build-essential git librocksdb-dev build-essential pkg-config
 
-  git clone https://github.com/bitweb-project/electrumx /opt/electrumx
+  git clone https://github.com/dpowcore-project/electrumx /opt/electrumx
   
   cd /opt/electrumx
 
@@ -32,11 +32,11 @@ Create and edit config::
 Config Example::
 
 
-  COIN = Bitweb
+  COIN = Dpowcoin
   DB_DIRECTORY = /opt/electrumx/db
-  DAEMON_URL = http://rpcuser:rpcpassword@127.0.0.1:26332/
+  DAEMON_URL = http://rpcuser:rpcpassword@127.0.0.1:42002/
   DB_ENGINE = rocksdb
-  SERVICES = tcp://:20001,rpc://:8000,ssl://20002,wss://:20003
+  SERVICES = tcp://:22001,rpc://:8001,ssl://22002,wss://:22003
   EVENT_LOOP_POLICY = uvloop
   PEER_DISCOVERY = off
   INITIAL_CONCURRENT = 50

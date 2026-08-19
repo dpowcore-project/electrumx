@@ -21,7 +21,7 @@ Electrum server network runs ElectrumX.
 
 ### Documentation
 
-Fast setup [Setup](https://github.com/bitweb-project/electrumx/blob/master/HowToSetup.rst).
+Fast setup [Setup](https://github.com/dpowcore-project/electrumx/blob/master/HowToSetup.rst).
 
 See [readthedocs](https://electrumx-spesmilo.readthedocs.io).
 
